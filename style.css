@@ -1,0 +1,63 @@
+body {
+  background: #16222a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3a6073,
+    #16222a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a6073,
+    #16222a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: cursive;
+}
+.card {
+  background: linear-gradient(
+    180.2deg,
+    rgb(30, 33, 48) 6.8%,
+    rgb(74, 98, 110) 131%
+  );
+  max-width: 60%;
+  margin: 50px 300px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.text {
+  padding-right: 35px;
+  border-radius: 5px;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+h1 {
+  text-align: left;
+  color: antiquewhite;
+  padding-top: 40px;
+}
+.middle-data {
+  margin-top: 30px;
+  color: antiquewhite;
+  font-size: 20px;
+}
+.emoji {
+  font-size: 90px;
+}
+.describtion {
+  font-size: 22px;
+}
+.num {
+  font-size: 50px;
+  font-weight: 10px;
+}
+.list {
+  list-style-type: none;
+}
+.last {
+  color: antiquewhite;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
